@@ -1,9 +1,15 @@
 
 
 // area for the navbar **************************************************************
+*{
+margin: 0;
+padding: 0;
+}
+
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lobster', cursive;
   display: none;
+
 }
 
 .sidebar {
@@ -73,8 +79,9 @@ background-image: url(../img/herbst-6758.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-height:100rem;
-
+height:100%;
+margin: 0;
+padding: 0;
 }
 
 
@@ -91,4 +98,80 @@ height:100rem;
   padding: 4rem;
   border-radius: 2px 20px 2px 20px;
 }
+
+.leistungen{
+  margin-top: 15rem;
+  background-color: white;
+  border-radius: 2px 20px 2px 20px;
+}
+
+.haubtseiteLeistungen{
+  margin-bottom: 5rem;
+}
+
+// herstellung area*******************************************************************
+
+.mainHerstellung{
+  background-image: url(../img/herbst-6813.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.firstDiv{
+  margin-top: 17rem;
+}
+
+.hollaender{
+  background-image: url(../img/100_0851.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height:35rem;
+
+}
+
+.borderRadius{
+  border-radius: 2px 20px 2px 20px;
+}
+
+.abtropfen{
+  background-image: url(../img/herbst-6772.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height:35rem;
+
+ box-shadow: 0px 0px 17px 14px rgba(0,0,0,0.96);
+}
+.bottomHerstellung{
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+  height: 100%;
+}
+
+// geschichte area ****************************************************
+
+.mainGeschichte{
+  background-image: url(../img/herbst-6873.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+
+}
+
+
+// footer area*****************************************************************************
+.footer{
+  margin: 15rem;
+}
+
+
 
